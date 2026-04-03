@@ -1,0 +1,922 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <title>Ndouwe Salvador | Ingénieur Électricien | Hyperfréquence | Énergie Solaire</title>
+    <meta name="description" content="Portfolio de Ndouwe Salvador, ingénieur électricien spécialisé en hyperfréquence, énergie solaire et recherche scientifique. Expert en conception de systèmes énergétiques innovants.">
+    <meta name="keywords" content="Ndouwe Salvador, ingénieur électricien, hyperfréquence, énergie solaire, photovoltaïque, électronique, HF, recherche scientifique">
+    <meta name="author" content="Ndouwe Salvador">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ndouwe-salvador.com">
+    <meta property="og:title" content="Ndouwe Salvador | Ingénieur Électricien">
+    <meta property="og:description" content="Expert en hyperfréquence, énergie solaire et systèmes électromagnétiques innovants.">
+    <meta property="og:image" content="./images/og-image.jpg">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Ndouwe Salvador | Ingénieur Électricien">
+    <meta name="twitter:description" content="Expert en hyperfréquence, énergie solaire et systèmes électromagnétiques innovants.">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- EmailJS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Structured Data for SEO -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Ndouwe Salvador",
+        "jobTitle": "Ingénieur Électricien",
+        "description": "Expert en hyperfréquence, énergie solaire et recherche scientifique",
+        "url": "https://ndouwe-salvador.com",
+        "sameAs": [
+            "https://www.linkedin.com/in/salvador-ndouwe",
+            "https://github.com/ndouwe-salvador"
+        ],
+        "knowsAbout": ["Hyperfréquence", "Énergie Solaire", "Électronique", "Physique"],
+        "telephone": "+33759360081",
+        "email": "ndouwesalvador@email.com"
+    }
+    </script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <span class="logo-icon">⚡</span>
+                <span class="logo-text">Ndouwe<span class="highlight">.dev</span></span>
+            </a>
+            
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#accueil" class="nav-link active">Accueil</a></li>
+                <li><a href="#apropos" class="nav-link">À Propos</a></li>
+                <li><a href="#competences" class="nav-link">Compétences</a></li>
+                <li><a href="#projets" class="nav-link">Projets</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#recherche" class="nav-link">Recherche</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="accueil" class="hero">
+        <div class="hero-background">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
+        </div>
+        <div class="hero-particles" id="particles"></div>
+        
+        <div class="hero-content">
+            <div class="hero-badge">
+                <i class="fas fa-circle-check"></i>
+                <span>Disponible pour des projets</span>
+            </div>
+            
+            <h1 class="hero-title">
+                <span class="greeting">Bonjour, je suis</span>
+                <span class="name">Ndouwe Salvador</span>
+            </h1>
+            
+            <div class="hero-subtitle">
+                <span class="typing-text" id="typingText"></span>
+                <span class="cursor">|</span>
+            </div>
+            
+            <p class="hero-description">
+                Je conçois des systèmes énergétiques et électromagnétiques innovants 
+                pour répondre aux défis technologiques modernes.
+            </p>
+            
+            <div class="hero-buttons">
+                <a href="#projets" class="btn btn-primary">
+                    <span>Voir mes projets</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+                <a href="#contact" class="btn btn-secondary">
+                    <span>Me contacter</span>
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="https://wa.me/23563443731?text=Bonjour%20je%20suis%20intéressé%20par%20vos%20services" 
+                   class="btn btn-whatsapp" target="_blank" rel="noopener noreferrer">
+                    <span>Contact rapide WhatsApp</span>
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+            </div>
+            
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number" data-count="5">0</span>
+                    <span class="stat-suffix">+</span>
+                    <span class="stat-label">Années d'expérience</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-count="20">0</span>
+                    <span class="stat-suffix">+</span>
+                    <span class="stat-label">Projets réalisés</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-count="15">0</span>
+                    <span class="stat-suffix">+</span>
+                    <span class="stat-label">Publications</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <span>Scroll</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="apropos" class="about section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">À Propos</span>
+                <h2 class="section-title">Qui suis-je ?</h2>
+                <p class="section-subtitle">Passionné par l'innovation technologique et la recherche scientifique</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-frame">
+                        <div class="image-placeholder">
+                            <i class="fas fa-user-graduate"></i>
+                        </div>
+                        <div class="experience-badge">
+                            <span class="exp-number">5+</span>
+                            <span class="exp-text">Années<br>d'expérience</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-text">
+                    <h3>Doctorant en Physique & Électronique</h3>
+                    <p>
+                        Je suis <strong>Ndouwe Salvador</strong>, ingénieur électricien passionné par les défis 
+                        technologiques de demain. Ma expertise couvre trois domaines complémentaires : 
+                        l'<strong>hyperfréquence</strong>, l'<strong>énergie solaire photovoltaïque</strong> 
+                        et les <strong>systèmes hybrides énergétiques</strong>.
+                    </p>
+                    <p>
+                        Mon approche est résolument orientée vers la résolution de problèmes réels. 
+                        Je combine rigueur scientifique et créativité technique pour développer des solutions 
+                        innovantes, durables et performantes.
+                    </p>
+                    
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <div>
+                                <h4>Formation</h4>
+                                <p>Doctorat en Physique / Électronique</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-microchip"></i>
+                            <div>
+                                <h4>Expertise</h4>
+                                <p>HF, Photovoltaïque, Systèmes hybrides</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-lightbulb"></i>
+                            <div>
+                                <h4>Approche</h4>
+                                <p>Résolution de problèmes réels</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <a href="#contact" class="btn btn-primary">
+                        <span>Travaillons ensemble</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="competences" class="skills section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Compétences</span>
+                <h2 class="section-title">Mes Expertises</h2>
+                <p class="section-subtitle">Un savoir-faire technique diversifié et pointu</p>
+            </div>
+            
+            <div class="skills-grid">
+                <!-- Électronique & HF -->
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-broadcast-tower"></i>
+                    </div>
+                    <h3>Électronique & HF</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Circuits HF</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="95"></div>
+                            </div>
+                            <span class="skill-percent">95%</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Guides d'onde</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90"></div>
+                            </div>
+                            <span class="skill-percent">90%</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Antennes</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="88"></div>
+                            </div>
+                            <span class="skill-percent">88%</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Mesures RF</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="92"></div>
+                            </div>
+                            <span class="skill-percent">92%</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Énergie Solaire -->
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-solar-panel"></i>
+                    </div>
+                    <h3>Énergie Solaire</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Installation PV</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="95"></div>
+                            </div>
+                            <span class="skill-percent">95%</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Systèmes hybrides</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90"></div>
+                            </div>
+                            <span class="skill-percent">90%</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Dimensionnement</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="93"></div>
+                            </div>
+                            <span class="skill-percent">93%</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Optimisation</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="87"></div>
+                            </div>
+                            <span class="skill-percent">87%</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Programmation -->
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Programmation</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Python</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="92"></div>
+                            </div>
+                            <span class="skill-percent">92%</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">MATLAB</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="88"></div>
+                            </div>
+                            <span class="skill-percent">88%</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">C/C++</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80"></div>
+                            </div>
+                            <span class="skill-percent">80%</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Simulation</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90"></div>
+                            </div>
+                            <span class="skill-percent">90%</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Outils -->
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Outils & Logiciels</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">HFSS / CST</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="93"></div>
+                            </div>
+                            <span class="skill-percent">93%</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Proteus</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90"></div>
+                            </div>
+                            <span class="skill-percent">90%</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">AutoCAD Élec</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85"></div>
+                            </div>
+                            <span class="skill-percent">85%</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">PVSyst</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="88"></div>
+                            </div>
+                            <span class="skill-percent">88%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projets" class="projects section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Portfolio</span>
+                <h2 class="section-title">Mes Projets</h2>
+                <p class="section-subtitle">Découvrez mes réalisations techniques et scientifiques</p>
+            </div>
+            
+            <div class="projects-filter">
+                <button class="filter-btn active" data-filter="all">Tous</button>
+                <button class="filter-btn" data-filter="hf">Hyperfréquence</button>
+                <button class="filter-btn" data-filter="solar">Énergie Solaire</button>
+                <button class="filter-btn" data-filter="embedded">Systèmes Embarqués</button>
+            </div>
+            
+            <div class="projects-grid">
+                <!-- Projet 1: Jet Électromagnétique -->
+                <div class="project-card" data-category="hf">
+                    <div class="project-image">
+                        <div class="project-placeholder hf-theme">
+                            <i class="fas fa-satellite-dish"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" title="Voir le projet">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">Hyperfréquence</span>
+                            <span class="tag">Recherche</span>
+                        </div>
+                        <h3>Jet Électromagnétique Hyperfréquence</h3>
+                        <p>
+                            Conception et simulation d'un système de propulsion électromagnétique 
+                            utilisant des ondes hyperfréquences pour générer une poussée contrôlée.
+                        </p>
+                        <div class="project-tech">
+                            <span><i class="fas fa-microchip"></i> HFSS</span>
+                            <span><i class="fas fa-wave-square"></i> CST Studio</span>
+                            <span><i class="fas fa-calculator"></i> MATLAB</span>
+                        </div>
+                        <div class="project-results">
+                            <i class="fas fa-chart-line"></i>
+                            <span>Gain de 15% en efficacité énergétique</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Projet 2: Système Solaire Hôtel -->
+                <div class="project-card" data-category="solar">
+                    <div class="project-image">
+                        <div class="project-placeholder solar-theme">
+                            <i class="fas fa-hotel"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" title="Voir le projet">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">Photovoltaïque</span>
+                            <span class="tag">Hybride</span>
+                        </div>
+                        <h3>Système Solaire Hybride pour Hôtel</h3>
+                        <p>
+                            Installation d'un système solaire hybride de 50kW pour un hôtel, 
+                            combinant panneaux photovoltaïques, batteries de stockage et réseau.
+                        </p>
+                        <div class="project-tech">
+                            <span><i class="fas fa-solar-panel"></i> PVSyst</span>
+                            <span><i class="fas fa-battery-full"></i> Lithium-ion</span>
+                            <span><i class="fas fa-bolt"></i> 50kW</span>
+                        </div>
+                        <div class="project-results">
+                            <i class="fas fa-chart-line"></i>
+                            <span>Économie de 40% sur la facture énergétique</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Projet 3: Simulation HFSS -->
+                <div class="project-card" data-category="hf">
+                    <div class="project-image">
+                        <div class="project-placeholder simulation-theme">
+                            <i class="fas fa-project-diagram"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" title="Voir le projet">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">Simulation</span>
+                            <span class="tag">Optimisation</span>
+                        </div>
+                        <h3>Simulation HFSS Avancée</h3>
+                        <p>
+                            Modélisation 3D complète et optimisation d'antennes patch pour 
+                            applications satellites en bande Ka avec analyse paramétrique.
+                        </p>
+                        <div class="project-tech">
+                            <span><i class="fas fa-cube"></i> HFSS</span>
+                            <span><i class="fas fa-code"></i> Python</span>
+                            <span><i class="fas fa-satellite"></i> Bande Ka</span>
+                        </div>
+                        <div class="project-results">
+                            <i class="fas fa-chart-line"></i>
+                            <span>Bande passante augmentée de 25%</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Projet 4: Systèmes Embarqués -->
+                <div class="project-card" data-category="embedded">
+                    <div class="project-image">
+                        <div class="project-placeholder embedded-theme">
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" title="Voir le projet">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="tag">Embarqué</span>
+                            <span class="tag">Contrôle</span>
+                        </div>
+                        <h3>Contrôle Moteur Brushless</h3>
+                        <p>
+                            Développement d'un système de contrôle vectoriel pour moteur BLDC 
+                            avec interface de monitoring temps réel et protection intégrée.
+                        </p>
+                        <div class="project-tech">
+                            <span><i class="fas fa-microchip"></i> STM32</span>
+                            <span><i class="fas fa-code"></i> C/C++</span>
+                            <span><i class="fas fa-tachometer-alt"></i> PWM</span>
+                        </div>
+                        <div class="project-results">
+                            <i class="fas fa-chart-line"></i>
+                            <span>Rendement amélioré de 12%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Services</span>
+                <h2 class="section-title">Ce que je propose</h2>
+                <p class="section-subtitle">Des solutions techniques sur mesure pour vos besoins</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-solar-panel"></i>
+                    </div>
+                    <h3>Installation Solaire</h3>
+                    <p>
+                        Conception, dimensionnement et installation de systèmes photovoltaïques 
+                        résidentiels et industriels avec optimisation de la production.
+                    </p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Étude de faisabilité</li>
+                        <li><i class="fas fa-check"></i> Dimensionnement précis</li>
+                        <li><i class="fas fa-check"></i> Installation clé en main</li>
+                        <li><i class="fas fa-check"></i> Maintenance préventive</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Études Électriques</h3>
+                    <p>
+                        Réalisation d'études électriques complètes pour vos projets, 
+                        de la conception à la validation des installations.
+                    </p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Schémas électriques</li>
+                        <li><i class="fas fa-check"></i> Calculs de court-circuit</li>
+                        <li><i class="fas fa-check"></i> Selectivité des protections</li>
+                        <li><i class="fas fa-check"></i> Conformité normes</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Maintenance Informatique</h3>
+                    <p>
+                        Support technique et maintenance de vos systèmes informatiques 
+                        et réseaux pour garantir leur disponibilité.
+                    </p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Dépannage hardware</li>
+                        <li><i class="fas fa-check"></i> Configuration réseau</li>
+                        <li><i class="fas fa-check"></i> Sécurité informatique</li>
+                        <li><i class="fas fa-check"></i> Sauvegarde données</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-microchip"></i>
+                    </div>
+                    <h3>Conception Électronique</h3>
+                    <p>
+                        Design de circuits électroniques sur mesure, de la simulation 
+                        à la fabrication du prototype fonctionnel.
+                    </p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Schématique & PCB</li>
+                        <li><i class="fas fa-check"></i> Simulation SPICE</li>
+                        <li><i class="fas fa-check"></i> Prototypage rapide</li>
+                        <li><i class="fas fa-check"></i> Tests & validation</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research Section -->
+    <section id="recherche" class="research section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Recherche & Innovation</span>
+                <h2 class="section-title">Travaux de Recherche</h2>
+                <p class="section-subtitle">Contributions scientifiques et innovations technologiques</p>
+            </div>
+            
+            <div class="research-content">
+                <div class="research-main">
+                    <div class="research-card featured">
+                        <div class="research-image">
+                            <div class="research-placeholder">
+                                <i class="fas fa-rocket"></i>
+                            </div>
+                        </div>
+                        <div class="research-info">
+                            <span class="research-badge">Projet PhD</span>
+                            <h3>Jets Électromagnétiques Hyperfréquence</h3>
+                            <p>
+                                Recherche fondamentale sur la génération de jets plasma par couplage 
+                                électromagnétique hyperfréquence. L'objectif est de développer une 
+                                technologie de propulsion spatiale innovante et efficace.
+                            </p>
+                            <div class="research-stats">
+                                <div class="r-stat">
+                                    <span class="r-number">3</span>
+                                    <span class="r-label">Publications</span>
+                                </div>
+                                <div class="r-stat">
+                                    <span class="r-number">2</span>
+                                    <span class="r-label">Brevets</span>
+                                </div>
+                                <div class="r-stat">
+                                    <span class="r-number">5</span>
+                                    <span class="r-label">Conférences</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="research-grid">
+                    <div class="research-card">
+                        <div class="research-icon">
+                            <i class="fas fa-wave-square"></i>
+                        </div>
+                        <h4>Optimisation des Guides d'Onde</h4>
+                        <p>
+                            Développement de nouvelles géométries de guides d'onde pour 
+                            minimiser les pertes et maximiser le transfert d'énergie.
+                        </p>
+                        <a href="#" class="research-link">En savoir plus <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    
+                    <div class="research-card">
+                        <div class="research-icon">
+                            <i class="fas fa-cube"></i>
+                        </div>
+                        <h4>Simulation Avancée</h4>
+                        <p>
+                            Méthodes numériques innovantes pour la simulation de phénomènes 
+                            électromagnétiques complexes à haute fréquence.
+                        </p>
+                        <a href="#" class="research-link">En savoir plus <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    
+                    <div class="research-card">
+                        <div class="research-icon">
+                            <i class="fas fa-battery-three-quarters"></i>
+                        </div>
+                        <h4>Stockage d'Énergie</h4>
+                        <p>
+                            Recherche sur les systèmes de stockage hybrides pour applications 
+                            solaires avec gestion intelligente de l'énergie.
+                        </p>
+                        <a href="#" class="research-link">En savoir plus <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Contact</span>
+                <h2 class="section-title">Discutons de votre projet</h2>
+                <p class="section-subtitle">Prêt à transformer vos idées en réalité ? Contactez-moi !</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <a href="mailto:ndouwesalvador@email.com">ndouwesalvador@email.com</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Téléphone</h4>
+                            <a href="tel:+33759360081">+33 7 59 36 00 81</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Localisation</h4>
+                            <span>Yaoundé, Cameroun</span>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-card whatsapp-card">
+                        <div class="contact-icon whatsapp-icon">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>WhatsApp</h4>
+                            <a href="https://wa.me/23563443731?text=Bonjour%20je%20suis%20intéressé%20par%20vos%20services" 
+                               target="_blank" rel="noopener noreferrer">
+                                +235 63 44 37 31
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <h4>Suivez-moi</h4>
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/salvador-ndouwe" 
+                               class="social-icon" title="LinkedIn" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="#" class="social-icon" title="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="social-icon" title="Twitter">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="social-icon" title="ResearchGate">
+                                <i class="fab fa-researchgate"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Nom complet</label>
+                                <input type="text" id="name" name="name" placeholder="Votre nom" required>
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" placeholder="votre@email.com" required>
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Sujet</label>
+                            <input type="text" id="subject" name="subject" placeholder="Sujet de votre message" required>
+                            <i class="fas fa-tag"></i>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Décrivez votre projet..." required></textarea>
+                            <i class="fas fa-comment"></i>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-full" id="submitBtn">
+                            <span>Envoyer le message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                        
+                        <div class="form-footer">
+                            <p class="response-guarantee">
+                                <i class="fas fa-clock"></i>
+                                Réponse sous 24h garantie
+                            </p>
+                            <a href="https://wa.me/23563443731?text=Bonjour%20je%20suis%20intéressé%20par%20vos%20services" 
+                               class="btn btn-whatsapp btn-full" target="_blank" rel="noopener noreferrer">
+                                <span>Contact rapide WhatsApp</span>
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#" class="footer-logo">
+                        <span class="logo-icon">⚡</span>
+                        <span class="logo-text">Ndouwe<span class="highlight">.dev</span></span>
+                    </a>
+                    <p>
+                        Ingénieur électricien passionné par l'innovation technologique 
+                        et la recherche scientifique.
+                    </p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Navigation</h4>
+                        <ul>
+                            <li><a href="#accueil">Accueil</a></li>
+                            <li><a href="#apropos">À Propos</a></li>
+                            <li><a href="#competences">Compétences</a></li>
+                            <li><a href="#projets">Projets</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4>Services</h4>
+                        <ul>
+                            <li><a href="#services">Installation Solaire</a></li>
+                            <li><a href="#services">Études Électriques</a></li>
+                            <li><a href="#services">Conception Électronique</a></li>
+                            <li><a href="#services">Maintenance IT</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4>Ressources</h4>
+                        <ul>
+                            <li><a href="#recherche">Publications</a></li>
+                            <li><a href="#">Blog (à venir)</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                            <li><a href="#">CV PDF</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Ndouwe Salvador. Tous droits réservés.</p>
+                <div class="footer-legal">
+                    <a href="#">Mentions légales</a>
+                    <a href="#">Politique de confidentialité</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" title="Retour en haut">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/23563443731?text=Bonjour%20je%20suis%20intéressé%20par%20vos%20services" 
+       class="whatsapp-float" 
+       id="whatsappFloat"
+       target="_blank" 
+       rel="noopener noreferrer"
+       title="Contactez-moi sur WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Toast Notification -->
+    <div class="toast" id="toast">
+        <i class="fas fa-check-circle"></i>
+        <span id="toastMessage">Message envoyé avec succès !</span>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
