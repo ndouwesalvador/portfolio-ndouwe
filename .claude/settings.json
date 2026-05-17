@@ -1,0 +1,39 @@
+{
+  "permissions": {
+    "allow": [
+      "Edit",
+      "Write",
+      "Read",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git push *)",
+      "Bash(git checkout *)",
+      "Bash(git merge *)",
+      "Bash(git stash *)",
+      "Bash(git restore *)",
+      "Bash(git reset *)",
+      "Bash(mkdir *)",
+      "Bash(cp *)",
+      "Bash(mv *)",
+      "Bash(rm *)",
+      "Bash(touch *)",
+      "Bash(python3 -m http.server*)",
+      "Bash(npx serve *)",
+      "Bash(npm install *)",
+      "Bash(npm run *)",
+      "mcp__182a58ff-d47b-463a-aa13-49ada8360ba7__get_store",
+      "mcp__182a58ff-d47b-463a-aa13-49ada8360ba7__get_store_analytics",
+      "mcp__182a58ff-d47b-463a-aa13-49ada8360ba7__list_products",
+      "mcp__182a58ff-d47b-463a-aa13-49ada8360ba7__get_product",
+      "mcp__182a58ff-d47b-463a-aa13-49ada8360ba7__get_product_details",
+      "mcp__182a58ff-d47b-463a-aa13-49ada8360ba7__list_sales",
+      "mcp__182a58ff-d47b-463a-aa13-49ada8360ba7__get_sale",
+      "mcp__182a58ff-d47b-463a-aa13-49ada8360ba7__list_customers",
+      "mcp__182a58ff-d47b-463a-aa13-49ada8360ba7__get_customer",
+      "mcp__182a58ff-d47b-463a-aa13-49ada8360ba7__get_customer_analytics",
+      "mcp__182a58ff-d47b-463a-aa13-49ada8360ba7__get_sales_analytics",
+      "mcp__182a58ff-d47b-463a-aa13-49ada8360ba7__get_visits_analytics",
+      "mcp__182a58ff-d47b-463a-aa13-49ada8360ba7__get_ratings"
+    ]
+  }
+}
